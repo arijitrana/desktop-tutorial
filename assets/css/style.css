@@ -1,0 +1,27 @@
+body {
+}
+
+p {
+    text-align: justify;
+    margin: 0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.header {
+    background: #173156;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.home {
+    padding: 20px 0;
+}
+
+.footer {
+    background: #a9a9a9;
+    padding: 10px 0;
+    width: 100%;
+}
