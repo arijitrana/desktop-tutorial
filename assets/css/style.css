@@ -10,18 +10,69 @@ p {
     text-align: right;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.navbar-custom {
+    background: #173156;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 800;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+ul.navbar-nav li a .nav-link {
+    color: #fff;
+}
+
 .header {
     background: #173156;
     color: #fff;
-    padding: 10px 0;
 }
 
 .home {
     padding: 20px 0;
 }
 
+/* About Us */
+img.img-container {
+    border: 1px solid #dddada;
+    padding: 5px;
+    float: left;
+    display: inline-block;
+    /* max-width: 400px; */
+    margin-right: 0 20px 20px 0;
+    position: relative;
+}
+
+span.about-text {
+    display: block;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
 .footer {
-    background: #a9a9a9;
+    background: #173156;
+    color: #fff;
     padding: 10px 0;
     width: 100%;
+}
+
+.social-link {
+    padding: 0 10px;
+    color: #fff;
+    font-size: 19px;
 }
